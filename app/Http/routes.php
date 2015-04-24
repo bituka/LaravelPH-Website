@@ -12,9 +12,6 @@
 */
 
 $app->get('/', function() {
-    return 'Hello World';
+    return view('public.hello');
 });
 
-$app->get('/welcome', function() use ($app) {
-    return $app->welcome();
-});

@@ -17,7 +17,7 @@ require_once __DIR__.'/../vendor/autoload.php';
 
 $app = new Laravel\Lumen\Application;
 
-// $app->withFacades();
+$app->withFacades();
 
 // $app->withEloquent();
 
@@ -77,7 +77,7 @@ $app->singleton(
 */
 
 // $app->register('App\Providers\AppServiceProvider');
-
+$app->register('Illuminate\Html\HtmlServiceProvider');
 /*
 |--------------------------------------------------------------------------
 | Load The Application Routes
