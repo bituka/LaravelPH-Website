@@ -1,17 +1,52 @@
-## Lumen PHP Framework
+## Laravel Philippines Website
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/downloads.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+[![Build Status](https://travis-ci.org/Laravel-Philippines/LaravelPH-Website.svg?branch=master)](https://travis-ci.org/Laravel-Philippines/LaravelPH-Website)
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+Facebook Group - https://www.facebook.com/groups/laravelph
 
-## Official Documentation
+Twitter Account - https://twitter.com/LaravelPH
 
-Documentation for the framework can be found on the [Lumen website](http://lumen.laravel.com/docs).
+### How to give suggestions?
+Create an issue - [https://github.com/Laravel-Philippines/LaravelPH-Website/issues](https://github.com/Laravel-Philippines/LaravelPH-Website/issues).
 
-### License
+### How to contribute?
+Please read through our [contributing guidelines](https://github.com/Laravel-Philippines/LaravelPH-Website/blob/master/CONTRIBUTING.md).
 
-The Lumen framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+### Local installation
+Here are the steps for installation on a local machine.
+
+1. Make sure you have [Laravel Homestead](http://laravel.com/docs/homestead) installed.
+2. Clone this repository.
+
+    ```
+    git clone git@github.com:Laravel-Philippines/LaravelPH-Website.git laravelph/
+    cd laravelph/
+    ```
+
+3. Add the path for the cloned laravelph repository to the `Homestead.yml` file under the `folders` list.
+4. Add a site `laravelph.local` for the laravelph repository to the `Homestead.yml` file under the `sites` list.
+5. Run `vagrant provision` in your Homestead folder.
+6. Create a database in Homestead called `laravelph`.
+7. Create a file named .env.local.php in the root folder of laravelph repository and copy and paste the code below:
+
+    ```php
+    <?php
+
+    return array(
+
+        'DB_HOST' => 'localhost',
+        'DB_NAME' => 'laravelph',
+        'DB_USERNAME' => 'homestead',
+        'DB_PASSWORD' => 'secret',
+
+    );
+    ```
+
+8. Add `127.0.0.1 laravelph.local` to your computer's `hosts` file.
+
+You can now visit the app in your browser by visiting [http://laravelph.local:8000/](http://laravelph.local:8000).
+
+### Running the tests
+
+1. Create a database in Homestead called `laravelph_test`
+2. SSH into your Homestead box, go to the laravelph folder and run `./vendor/bin/phpunit`

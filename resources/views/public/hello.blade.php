@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Laravel PH Eto na!</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Laravel PH</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,14 +54,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio">Start here</a>
                     </li>
+                  <!--
                     <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
                     </li>
+                  -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -74,11 +76,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
-                        <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                    <img class="img-responsive" src="http://mtv.mtvnimages.com/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2015/02/7-beavis_and_butthead_headbanging-1423080417.gif" style="border-radius:50%;" alt="beavis and butthead">
+                    <div class="intro-text" >
+                        <span class="name">Hello Artisans</span>
+                      <hr>
+                      <!--   <hr class="star-light">  -->
+                        <span class="skills">Join us in learning Lumen in building our community site.</span>
+                      <hr>
+                      <span class="skills">Come on! It's fun to play with codes!</span>
+                      <hr>
+                      <span class="skills">Beginners are welcome.</span>
+                      
                     </div>
                 </div>
             </div>
@@ -90,41 +98,60 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Talk to us</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="https://github.com/Laravel-Philippines/LaravelPH-Website" class="portfolio-link" data-toggle="modal" target="_blank">
+                    <!--
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal"> 
+
                         <div class="caption">
+                          
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                      -->
+                        <img src="img/portfolio/octocat.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
+                  
+                  <a href="https://www.facebook.com/groups/laravelph/?fref=ts" class="portfolio-link" data-toggle="modal" target="_blank">
+                  <!--
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                   -->
+                        <img src="http://www.nromusic.com/NRO/wp-content/uploads/2014/11/FB-f-Logo__blue_1024.png" class="img-responsive" alt="">
                     </a>
                 </div>
+                 
                 <div class="col-sm-4 portfolio-item">
+                  
+                  
+                  
+                  <a href="https://trello.com/b/C6fqgqYG/laravelph-website" class="portfolio-link" data-toggle="modal" target="_blank">
+                    
+                    <!--
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+
+                      -->
+                        <img src="http://upload.wikimedia.org/wikipedia/fr/archive/6/68/20150311070737!Logo_Trello.png" class="img-responsive" alt="">
                     </a>
                 </div>
+              <!--
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -155,11 +182,13 @@
                         <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
                     </a>
                 </div>
+              -->
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About Section 
+  
     <section class="success" id="about">
         <div class="container">
             <div class="row">
@@ -185,6 +214,7 @@
     </section>
 
     <!-- Contact Section -->
+  <!--
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -197,7 +227,8 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+  <!--        
+  <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
@@ -239,8 +270,10 @@
         </div>
     </section>
 
+-->
     <!-- Footer -->
     <footer class="text-center">
+      <!--
         <div class="footer-above">
             <div class="container">
                 <div class="row">
@@ -275,11 +308,13 @@
                 </div>
             </div>
         </div>
+-->
+
         <div class="footer-below">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2014
+                        Copyright &copy; Laravel PH 2015
                     </div>
                 </div>
             </div>
