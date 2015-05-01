@@ -50,3 +50,5 @@ You can now visit the app in your browser by visiting [http://laravelph.local:80
 
 1. Create a database in Homestead called `laravelph_test`
 2. SSH into your Homestead box, go to the laravelph folder and run `./vendor/bin/phpunit`
+
+###
