@@ -56,10 +56,10 @@
                     <li class="page-scroll">
                         <a href="#portfolio">Start here</a>
                     </li>
-                  <!--
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#login">Login</a>
                     </li>
+                 <!--   
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
                     </li>
@@ -187,14 +187,15 @@
         </div>
     </section>
 
-    <!-- About Section 
+    <!-- Login Section 
   
-    <section class="success" id="about">
+    <section class="success" id="login">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h2>Login</h2>
                     <hr class="star-light">
+                    To access the Forum Sites and more...
                 </div>
             </div>
             <div class="row">
@@ -212,7 +213,7 @@
             </div>
         </div>
     </section>
-
+    -->
     <!-- Contact Section -->
   <!--
     <section id="contact">

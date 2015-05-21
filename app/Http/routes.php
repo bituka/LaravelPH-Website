@@ -1,5 +1,7 @@
 <?php
 
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -11,7 +13,14 @@
 |
 */
 
+
+
 $app->get('/', function() {
+    
     return view('public.hello');
 });
 
+// $app->get('members', 'App\Http\Controllers\MembersController@index');
+
+
+// $app->get('user/1', 'App\Http\Controllers\MemebersController@showProfile');
