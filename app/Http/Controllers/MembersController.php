@@ -1,20 +1,27 @@
 <?php namespace App\Http\Controllers;
 
-use App\User;
-use App\Http\Controllers\Controller;
+// use App\User;
+use App\Http\Controllers;
+use Illuminate\Http\Request;
 
 class MembersController extends Controller {
 
-    /**
-     * Show the profile for the given user.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function index()
-    {
-        // return view('user.profile', ['user' => User::findOrFail($id)]);
-        return View::make('hello');
+    public function index() {
+        
+        return 'testindex';
+        /*
+        $app->post('auth/login', function(Request $request) {
+
+        if (Auth::attempt($request->only('email', 'password'))) {
+            // return redirect('dashboard');
+             
+            return 'login success';
+            }
+
+        });
+        */
+        // return 'testindex';
     }
+
 
 }

@@ -82,6 +82,8 @@ $app->singleton(
 
 // $app->register('App\Providers\AppServiceProvider');
 $app->register('Illuminate\Html\HtmlServiceProvider');
+// $app->register('Illuminate\Http\Request');
+
 /*
 |--------------------------------------------------------------------------
 | Load The Application Routes
